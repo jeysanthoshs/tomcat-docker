@@ -9,7 +9,6 @@ install:
 
 before_script:
   - env | sort
-  - cd "$VERSION/$VARIANT"
   - image="tomcat:$VERSION-$VARIANT"
 
 script:
